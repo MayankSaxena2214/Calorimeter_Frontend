@@ -20,7 +20,7 @@ const MyFood = () => {
  
       useEffect(() => {
           if (!isAuthenticated) {
-            navigate('/');
+            navigate('/login');
           }
         }, [isAuthenticated, navigate]); 
   const toggleFilter=()=>{
